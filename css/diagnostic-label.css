@@ -1,0 +1,99 @@
+.diagnostic-label__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.diagnostic-label__item {
+    max-width: 300px;
+    min-height: 299px;
+}
+
+.hover-effect-btn {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
+
+.diagnostic-label__caption {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 75%;
+    z-index: 1;
+    transition: top .5s ease;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #38AF74;
+}
+
+.diagnostic-label__hidden-par {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 30%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.diagnostic-label__btn {
+    border-radius: 20px;
+    background: linear-gradient(91deg, #E26769 0.34%, #E88486 112.11%);
+    box-shadow: 0px 10px 10px 0px rgba(180, 27, 23, 0.30);
+    padding: 10px 40px;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.diagnostic-label__par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.diagnostic-label__hidden-btn {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 75%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.hover-effect-btn:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hover-effect-btn:hover .diagnostic-label__caption {
+    top: 10%; 
+}
+
+.hover-effect-btn:hover .diagnostic-label__image {
+    margin-top: 40px;
+}
+
+.hover-effect-btn:hover .diagnostic-label__hidden-btn {
+    opacity: 1;
+}
+
+.hover-effect-btn:hover .diagnostic-label__hidden-par {
+    opacity: 1;
+}

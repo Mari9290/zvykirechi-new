@@ -1,0 +1,29 @@
+.syllables__container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 0 60px;
+}
+
+.syllables__img:hover {
+    background-image: radial-gradient(circle, purple, #ffffff);
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.syllables__container-one {
+    justify-content: start;
+}
+
+.syllables__container-two {
+    justify-content: end;
+}
+
+@media (max-width: 500px) {
+    .syllables__container {
+        grid-template-columns: 150px 150px;
+        gap: 0;
+    }
+}
+

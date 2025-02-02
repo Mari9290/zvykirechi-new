@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простые слова</title>
+    <link rel="stylesheet" href="css/simpWSS.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header" id="instr">
+        <div class="container header__container">
+            <a href="../../gameList.html#startgame" class="header__link"></a>
+
+            <h2 class="header__title">Простые слова 
+                (I уровень)</h2>
+
+            <figure class="instruction">
+                <img src="img/header/manulSitting.png" alt="кусака" class="instruction__img">
+                <figcaption class="instruction__text">Манулу очень понравились рисунки белочки
+                    и он решил собрать их в альбом.
+                    Скажи название рисунка, нажми на него,
+                    и манул уберет его в альбом. 
+                    Соберите все рисунки!</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main>
+        <aside class="album" id="album">
+            <div class="container album__container">
+                <figure class="album__figure">
+                    <img id="characterOne" src="img/figuresJs/fly.png" class="album__img">
+                    <figcaption class="album__par">Муха</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterTwo" src="img/figuresJs/owl.png" class="album__img">
+                    <figcaption class="album__par">Сова</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterThree" src="img/figuresJs/perfume.png" class="album__img">
+                    <figcaption class="album__par">Духи</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterFour" src="img/figuresJs/sled.png" class="album__img">
+                    <figcaption class="album__par">Сани</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterFive" src="img/figuresJs/beads.png" class="album__img">
+                    <figcaption class="album__par">Бусы</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterSix" src="img/figuresJs/foxDonuts.png" class="album__img">
+                    <figcaption class="album__par">Лиса</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterSeven" src="img/figuresJs/catSH.png" class="album__img">
+                    <figcaption class="album__par">Киса</figcaption>
+                </figure>
+
+                <figure class="album__figure">
+                    <img id="characterEight" src="img/figuresJs/notes.png" class="album__img">
+                    <figcaption class="album__par">Ноты</figcaption>
+                </figure>
+            </div>
+        </aside>
+
+        <aside class="final" id="final">
+            <figure class="final__container container">
+                <img src="img/final/manulAlbumSS.gif" class="final__img">
+            </figure>
+        </aside>
+        
+        <aside class="btn">
+            <div class="container btn__container">
+                <a href="simpWSS.html" class="btn__link-repeat" id="reloadGame"></a>
+                <button class="btn__button" id="next"></button>
+                <a id="home" href="../../../startSpeech.html#firstgrade" class="btn__link-home"></a>
+            </div>
+        </aside>
+
+    </main>
+
+    <audio id="audioChpok" src="audio/ding.mp4"></audio>
+    <audio id="audioSalut" src="audio/firework.mp4"></audio>
+
+
+
+    <script src="js/simpWSSmanul.js"></script>
+</body>
+</html>

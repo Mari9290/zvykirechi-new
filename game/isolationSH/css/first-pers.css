@@ -1,0 +1,128 @@
+.pers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pers__wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.pers__figure {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.pers__road {
+    width: 100%;
+    border: none;
+    border-bottom: 4px dashed #88c1ff;
+}
+
+.animOne {
+    animation: moveM 2.3s linear;
+}
+
+@keyframes moveM {
+    80% {
+        transform: translateX(350px);
+    }
+
+    100% {
+        transform: translateX(350px);
+    }
+}
+
+.color-green {
+    background-image: radial-gradient(circle, rgb(0, 217, 255), #ffffff);
+    border-radius: 100%;
+}
+
+#characterTwo {
+    background-image: radial-gradient(circle, rgb(0, 217, 255), #ffffff);
+    border-radius: 100%;
+}
+
+.pers__btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pers__btn::after {
+    content: url(../img/icon/play.svg);
+    object-fit: contain;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pers__btn:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.pers__btn:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#startTwo {
+    display: none;
+}
+
+#startThree {
+    display: none;
+}
+
+#startOneSecond {
+    display: none;
+}
+
+#startTwoSecond {
+    display: none;
+}
+
+@media (max-width: 766px) {
+    .pers__figure {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 30px;
+    }
+
+    @keyframes moveM {
+        80% {
+            transform: translateX(230px);
+        }
+    
+        100% {
+            transform: translateX(230px);
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .pers__figure {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 350px) {
+    @keyframes moveM {
+        80% {
+            transform: translateX(180px);
+        }
+    
+        100% {
+            transform: translateX(180px);
+        }
+    }
+}

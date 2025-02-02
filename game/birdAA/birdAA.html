@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай звук "ПТИЦЫ"</title>
+    <link rel="stylesheet" href="css/birdAA.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#startgame" class="header__link"></a>
+
+            <h2 class="header__title">Угадай звук "ПТИЦЫ"</h2>
+
+            <figure class="instruction">
+                <img src="img/form/foxWithBinoculars.png" alt="кусака" class="instruction__img">
+                <figcaption class="instruction__text">Наша лисичка очень любопытная и хочет изучить голоса птичек.
+                    Давай поможем ей в этом!
+                    Нажми кнопку "звук", послушай и запомни, 
+                    Как разговаривает птица.
+                    Потом нажимай "старт" и угадай, что звучало.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <div class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <label for="oneOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="oneOption" 
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/crown.png" 
+                        alt="элемент"
+                        id="oneImg">
+                </label>
+
+                <label for="twoOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="twoOption" 
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/cock.png" 
+                        alt="элемент"
+                        id="twoImg">
+                </label>
+
+                <label for="threeOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="threeOption"
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/gull.png" 
+                        alt="элемент"
+                        id="threeImg">
+                </label>
+
+                <label for="fourOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="fourOption"
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/goldfinch.png" 
+                        alt="элемент"
+                        id="fourImg">
+                </label>
+            </fieldset>
+        </form>
+
+        <div class="play-button">
+            <button
+            class="play-button__repit"
+            id="repit"
+            >
+            </button>
+
+            <button 
+            type="submit"
+            class="play-button__btn"
+            id="submit"
+            >
+            </button>
+        </div>
+        <audio src="audio/1crow.mp3" id="oneAudio"></audio>
+        <audio src="audio/2rooster.mp3" id="twoAudio"></audio>
+        <audio src="audio/3gull.mp3" id="threeAudio"></audio>
+        <audio src="audio/goldfinch.m4a" id="fourAudio"></audio>
+
+        <div class="button">
+            <button class="button__start-on" id="btnOn"></button>
+            <button class="button__play" id="btnplay"></button>
+        </div>
+    </div>
+
+    <div class="popup__bgyes"> 
+        <div class="popupyes">
+            <img src="img/form/FineFox.png" alt="правильно" width="200">
+            <button class="close-popupyes">ОК</button>
+        </div>
+    </div>
+
+    <div class="popup__bgno"> 
+        <div class="popupno">
+            <img src="img/form/BadlyFox.png" alt="неправильно" width="200">
+            <button class="close-popupno">ОК</button>
+        </div>
+    </div>
+
+    <script src="js/birdAA.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.header {
+    position: relative;
+}
+
+.header__container::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header__link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__link::after {
+    content: url(../img/icon/home.svg);
+    object-fit: contain;
+    position: absolute;
+    padding: 5px;
+}
+
+.header__link:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header__link:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instruction {
+    border-radius: 20px;
+    background-color: rgb(128,128,128, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.instruction__img {
+    width: 200px;
+}
+
+.instruction__text {
+    white-space: pre-line;
+    line-height: 150%;
+}
+
+@media (max-width: 925px) {
+    .instruction__img {
+        width: 100px;
+    }
+
+    .instruction__text {
+        font-size: 14px;
+    }
+
+    .header__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .instruction__img {
+        width: 70px;
+    }
+
+    .instruction__text {
+        font-size: 12px;
+    }
+
+    .header__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 365px) {
+    .header__link::after {
+        padding: 0;
+    }
+
+    .header__link {
+        width: 40px;
+        height: 40px;
+    }
+}

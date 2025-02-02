@@ -1,0 +1,6 @@
+.cta-gym__wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}

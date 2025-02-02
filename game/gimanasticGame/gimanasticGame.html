@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Артикуляционная гимнастика</title>
+    <link rel="stylesheet" href="css/gymnasticgame.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#freegame" class="header__link"></a>
+
+            <h2 class="header__title">Артикуляционная гимнастика</h2>
+            <img class="header__btn" src="img/icon/sound-on.svg" id="pausemuse" width="35">
+            <img class="header__btn playmuse" src="img/icon/sound-of.svg" id="playmuse" width="35">
+
+            <aside class="instruction">
+                <p class="instruction__text" id="instruction">Чтобы начать выполнять упражнения с нашими героями,нажмите на карточку с заданием.
+                    Выполняйте или все задания по порядку, либо выберите только те,
+                    которые подходят малышу по решаемой задаче и сложности. Удачи! 
+                </p>
+            </aside>
+        </div>
+    </section>
+
+
+    <main>
+        <section class="label-game" id="mainDiv">
+            <div class="container label-game__container">
+                <!-- 1 кнопка -->
+                <a href="#sectionOne">
+                    <div class="label-game__wrap">   
+                        <img id="tiket" class="label-game__img" src="img/label-game/1sailBTN.png" width="300px" height="300px" alt="парус">
+                    </div>
+                </a>
+
+                <!-- 2 кнопка -->
+                <a href="#sectionTwo">
+                    <div class="label-game__wrap">   
+                        <img id="tiketTwo" class="label-game__img" src="img/label-game/2swingBTN.png" width="300px" height="300px" alt="качели">
+                    </div>
+                </a>
+
+                <!-- 3 кнопка -->
+                <a href="#sectionThree">
+                    <div class="label-game__wrap">   
+                        <img id="tiketThree" class="label-game__img" src="img/label-game/3windowBTN.png" width="300px" height="300px" alt="окошко">
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="gymnastic">
+            <!--1 Гимнастика -->
+            <aside id="sectionOne" class="gymnastic__wrap">
+                <figure class="gymnastic__figure" id="exampleOne">
+                    <img class="gymnastic__img" src="img/gymnastic/1sail.gif" alt="парус" width="450">
+                </figure>
+
+                
+            </aside>
+
+            <!--2 Гимнастика -->
+
+            <aside id="sectionTwo" class="gymnastic__wrap">
+                <figure class="gymnastic__figure" id="exampleTwo">
+                    <img class="gymnastic__img" src="img/gymnastic/2swing.gif" alt="качели" width="450">
+                </figure>
+
+                
+            </aside>
+
+            <!--3 Гимнастика -->
+
+            <aside id="sectionThree" class="gymnastic__wrap">
+                <figure class="gymnastic__figure" id="exampleThree">
+                    <img class="gymnastic__img" src="img/gymnastic/3window.gif" alt="окошко" width="450">
+                </figure>
+
+                
+            </aside>
+
+            <a id="show" class="gymnastic__btn" href="gimanasticGame.html"></a>
+        </section>
+    </main>
+
+
+<!-- Аудио -->
+<audio id="audioOne" loop src="audio/1sail.mp4"></audio>
+<audio id="audioTwo" loop src="audio/2swing.mp4"></audio>
+<audio id="audioThree" loop src="audio/3window.mp4"></audio>
+<audio id="audioFour" loop src="audio/4hunger.mp4"></audio>
+
+
+
+    <script src="js/gimanasticGame.js"></script>
+    <script src="js/pause.js"></script>
+</body>
+</html>

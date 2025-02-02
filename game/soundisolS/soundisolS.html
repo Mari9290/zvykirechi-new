@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Находка</title>
+    <link rel="stylesheet" href="css/soundisolS.css">
+    <link rel="icon" href="../../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body class="back">
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#newgame" class="header__link"></a>
+
+            <h2 class="header__title">Находка</h2>
+
+            <div class="instruction">
+                <p id="textBlock" class="instruction__text">Лиса подметала дорожки в своем саду и нашла кое-что под листом. 
+                    <b>Нажми на лист</b> и скажи, что это? (семечка подсолнуха)
+                <span class="instruction__text-green" id="text">Лисе стало интересно, получится ли вырастить из неё цветок? 
+                    Давай поможем лисе! Нам понадобится звук [С]!</span></p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="gaden">
+            <div class="container gaden__container">
+                <figure id="person" class="gaden__figure-person">
+                    <img src="img/first/fox.svg" alt="Лиса">
+                </figure>
+
+                <figure id="seed" class="gaden__figure-seed">
+                    <img src="img/first/seed.svg" alt="Семечка">
+                </figure>
+
+                <figure id="leaf" class="gaden__figure-leaf">
+                    <img src="img/first/leaf.svg" alt="Листок">
+                </figure>
+
+                <a href="soundisolSsec.html" class="gaden__btn" id="btnNext"></a>
+            </div>
+        </aside>
+    </main>
+
+
+    <!-- Аудио -->
+
+    <audio id="audioLeaf" src="audio/leaf.m4r"></audio>
+    <script src="js/soundisolS.js"></script>
+</body>
+</html>

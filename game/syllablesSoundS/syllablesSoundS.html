@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лопни пузырь</title>
+    <link rel="stylesheet" href="css/syllablesSoundS.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#freegame" class="header__link"></a>
+
+            <h2 class="header__title">Лопни пузырь!</h2>
+
+            <figure class="instruction">
+                <img src="img/header/manul.png" alt="кусака" class="instruction__img">
+                <figcaption class="instruction__text">Все котики любят играть, и даже дикие.
+                    Помоги манулу поймать все мыльные пузыри!
+                    Прочитай слог на каждом пузырьке, четко произнося все звуки,
+                    затем нажми на него. Поймай все пузырьки как можно быстрее!</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main>
+        <aside class="syllables">
+            <div class=" syllables__container syllables__container-one">
+                <figure id="one" class="syllables__figure">
+                    <img id="oneSyllable" class="syllables__img" src="img/syllables/1.png" alt="">
+                </figure>
+
+                <figure id="two" class="syllables__figure">
+                    <img id="twoSyllable" class="syllables__img" src="img/syllables/2.png" alt="">
+                </figure>
+            </div>
+            <div class=" syllables__container syllables__container-two">
+                <figure id="three" class="syllables__figure">
+                    <img id="threeSyllable" class="syllables__img" src="img/syllables/3.png" alt="">
+                </figure>
+
+                <figure id="four" class="syllables__figure">
+                    <img id="fourSyllable" class="syllables__img" src="img/syllables/4.png" alt="">
+                </figure>
+            </div>
+        </aside>
+
+        <aside class="btn">
+            <div class="container btn__container">
+                <button class="btn__hard open-popup"></button>
+                <button id="next" class="btn__next"></button>
+            </div>
+        </aside>
+
+    </main>
+
+    <div class="popup__bg"> 
+        <div class="popup">
+            <p class="textpopup">А теперь попробуй придумать слово с любым из этих слогов!</p>
+            <button class="close-popup">ОК</button>
+        </div>
+    </div>
+
+    <audio id="audioChpok" src="audio/chpok2.mp4"></audio>
+
+
+
+    <script src="js/syllablesSoundS.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

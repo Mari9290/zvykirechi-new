@@ -1,0 +1,104 @@
+.props__item {
+    width: 480px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 30px 30px 100px;
+    position: relative;
+}
+
+.props__item:nth-child(1)::before {
+    content: url(../img/pros/heart.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__item:nth-child(2)::before {
+    content: url(../img/pros/alarm.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__item:nth-child(3)::before {
+    content: url(../img/pros/office.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__item:nth-child(4)::before {
+    content: url(../img/pros/avatarhuman.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__item:nth-child(5)::before {
+    content: url(../img/pros/machine.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__item:nth-child(6)::before {
+    content: url(../img/pros/personal.svg);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.props__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.props__par {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.props__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #7C7C7C;
+}
+
+
+@media (max-width: 700px) {
+    .props__par {
+        font-size: 18px;
+    }
+
+    .props__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .props__item {
+        width: 380px;
+        height: 100%;
+        padding: 15px 15px 15px 80px;
+    }
+}
+
+@media (max-width: 420px) {
+    .props__item {
+        width: 350px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 370px) {
+    .props__item {
+        width: 300px;
+        height: 100%;
+    }
+}
+

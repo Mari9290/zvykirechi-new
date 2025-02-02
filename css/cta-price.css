@@ -1,0 +1,12 @@
+.cta-price__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-price__title {
+    color: #613957;
+    text-align: center;
+}
+

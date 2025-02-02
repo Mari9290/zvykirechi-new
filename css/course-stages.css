@@ -1,0 +1,66 @@
+.course-stages {
+    background-image: url(../img/course-stages/line.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-stages__figcaption {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.course-stages__figure {
+    margin-bottom: 50px;
+}
+
+.course-stages__img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.course-stages__img-red {
+    border: 1px solid #EC6E5C;
+}
+
+.course-stages__img-orange {
+    border: 1px solid #ECBB5C;
+}
+
+.course-stages__img-green {
+    border: 1px solid #54A582;
+}
+
+@media (max-width: 800px) {
+    .course-stages {
+        align-items: end;
+    }
+}
+
+@media (max-width: 700px) {
+    .course-stages__img {
+        width: 300px;
+    }
+
+    .course-stages {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 480px) {
+    .course-stages__img {
+        width: 200px;
+    }
+
+    .course-stages__figure {
+        width: 250px;
+    }
+
+    .course-stages__figcaption {
+        font-size: 14px;
+    }
+}

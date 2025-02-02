@@ -1,0 +1,46 @@
+.about-us__figcaption {
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.about-us__figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-us__img {
+    width: 375px;
+}
+
+.about-us__figure-marina {
+    margin-top: -150px;
+}
+
+.about-us__par {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+@media (max-width: 905px) {
+    .about-us__figure-marina {
+        margin-top: 0px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-us__par {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .about-us__figcaption {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-us__img {
+        width: 100%;
+    }
+}

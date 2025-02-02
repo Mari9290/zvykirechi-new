@@ -1,0 +1,52 @@
+.btn__hard {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn__hard::after {
+    content: url(../img/icon/plus.svg);
+    object-fit: contain;
+}
+
+.btn__hard:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn__hard:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn__next {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+
+.btn__next::after {
+    content: url(../img/icon/forvard.svg);
+    object-fit: contain;
+    padding: 3px;
+}
+
+.btn__next:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn__next:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+

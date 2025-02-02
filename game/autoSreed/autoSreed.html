@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учимся читать</title>
+    <link rel="stylesheet" href="css/autoSreed.css">
+    <link rel="icon" href="../../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#newgame" class="header__link"></a>
+
+            <h2 class="header__title">Учимся читать</h2>
+
+            <div class="instruction">
+                <p class="instruction__text">Манул хочет научиться читать, и попросил нас ему помочь!
+                    <span class="instruction__text-span">
+                        Нажми на кнопку "плей", и на экране появится слово. Нажми на картинку,
+                        которую обозначает это слово и галочку для проверки. Удачи!
+                    </span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <label for="oneOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="oneOption" 
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/fox_wow.svg" 
+                        alt="элемент"
+                        id="oneImg">
+                </label>
+
+                <label for="twoOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="twoOption" 
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/cat.svg" 
+                        alt="элемент"
+                        id="twoImg">
+                </label>
+
+                <label for="threeOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="threeOption"
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/scythe.svg" 
+                        alt="элемент"
+                        id="threeImg">
+                </label>
+
+                <label for="fourOption" class="form__label">
+                    <input 
+                        type="radio" 
+                        class="form__option"
+                        name="form" 
+                        id="fourOption"
+                    >
+                    <img 
+                        class="form__img" 
+                        src="img/form/goat.svg" 
+                        alt="элемент"
+                        id="fourImg">
+                </label>
+            </fieldset>
+        </form>
+
+        <div class="play-button">
+            <div class="play-button__wrap" id="wparText">
+                <p class="play-button__text" id="textReed"></p>
+            </div>
+
+            <button 
+            type="submit"
+            class="play-button__btn"
+            id="submit"
+            >
+            </button>
+            
+        </div>
+
+        <div class="button">
+            <button class="button__play" id="btnplay"></button>
+        </div>
+
+        <figure class="img__figure">
+            <img src="img/form/manul_reads.svg" alt="манул с книгой">
+        </figure>
+    </div>
+
+    <div class="popup__bgyes"> 
+        <div class="popupyes">
+            <img src="img/form/FineFox.png" alt="правильно" width="200">
+            <button class="close-popupyes">ОК</button>
+        </div>
+    </div>
+
+    <div class="popup__bgno"> 
+        <div class="popupno">
+            <img src="img/form/BadlyFox.png" alt="неправильно" width="200">
+            <button class="close-popupno">ОК</button>
+        </div>
+    </div>
+
+    <script src="js/autoSreed.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+.content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content__figure {
+    width: 350px;
+}
+
+.content__figure-chest {
+    cursor: pointer;
+}
+
+.content__figure-scroll {
+    opacity: 0;
+}
+
+.content__figure-scroll-opacity {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.content__figure-scroll-anim {
+    animation: opacity-anime 1s ease-in;
+}
+
+.content__figure-scroll-anim-one {
+    animation: opacity-anime-two 1s ease-in;
+}
+
+.content__figure-scroll-anim-two {
+    animation: opacity-anime 1s ease-in;
+}
+
+.content__figure-scroll-anim-three {
+    animation: opacity-anime-two 1s ease-in;
+}
+
+.content__figure-scroll-anim-four {
+    animation: opacity-anime 1s ease-in;
+}
+
+.content__figure-scroll-anim-five {
+    animation: opacity-anime-two 1s ease-in;
+}
+
+.content__figure-scroll-anim-six {
+    animation: opacity-anime-six 1s ease;
+}
+
+@keyframes opacity-anime {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-anime-two {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-anime-six {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.content__figure-chest-open {
+    display: none;
+    cursor: pointer;
+}
+
+#chestOpenTwo {
+    display: none;
+}
+
+#chestOpenThree {
+    display: none;
+}
+
+#chestOpenFour {
+    display: none;
+}
+
+#chestOpenFive {
+    display: none;
+}
+
+#chestOpenSix {
+    display: none;
+}
+
+#chestOpenSeven {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .content__container {
+        flex-wrap: wrap;
+    }
+
+    .content__figure-scroll {
+        order: -1;
+    }
+}
+
+@media (max-width: 800px) {
+    .content__figure-person {
+        width: 30%;
+    }
+
+    .content__figure-chest {
+        width: 40%;
+    }
+
+    .content__figure-chest-open {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content__figure-scroll {
+        width: 250px;
+    }
+}
+

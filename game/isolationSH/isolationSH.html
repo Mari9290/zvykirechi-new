@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вокруг света</title>
+    <link rel="stylesheet" href="css/isolationSH.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#freegame" class="header__link"></a>
+
+            <h2 class="header__title">Вокруг света</h2>
+
+            <div class="instruction">
+                <p class="instruction__text">Белочка отправилась в путешествие. 
+                    Помоги ей добраться до цели: чтобы воздушный шар летел, 
+                    подними язычок к верхним зубам в форме "чашечки", 
+                    набери воздух и подуй на язык со звуком [Ш].</p>
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="pers">
+            <div class="pers__container">
+                <div class="pers__wrap">
+                    <figure class="pers__figure">
+                        <img id="characterOne" class="pers__img" src="img/pers/squirrelOnBall.png" alt="">
+                    </figure>
+                    <hr class="pers__road"> 
+                    <figure class="pers__figure">
+                        <img id="characterTwo" class="pers__img" src="img/pers/mountain.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="next">
+            <div class="next__container container">
+                <button id="startOne" class="pers__btn"></button>
+                <button id="hard" class="btn__hard open-popup"></button>
+                <button id="next" class="next__btn"></button>
+                <button id="repiat" class="next__btn-repiat"></button>
+            </div>
+        </section>
+        
+        <div class="popup__bgyes"> 
+            <div class="popupyes">
+                <img src="img/popup/FineFox.png" alt="кристалл" width="200px">
+                <button class="close-popupyes">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bg"> 
+            <div class="popup">
+                <p class="textpopup">А теперь попробуй придумать слово с любым из этих слогов!</p>
+                <button class="close-popup">ОК</button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/isolationSH.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

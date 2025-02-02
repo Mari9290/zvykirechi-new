@@ -1,0 +1,30 @@
+.video__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.video__video {
+    width: 700px;
+}
+
+.video__btn {
+    display: block;
+}
+
+.video__vid {
+    width: 250px;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .video__video {
+        width: 100%;
+    }
+
+    .video__vid {
+        width: 100%;
+    }
+}

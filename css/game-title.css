@@ -1,0 +1,30 @@
+.game-title__container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.game-title__par {
+    margin-bottom: 25px;
+}
+
+.game-title__par-ul {
+    margin-bottom: 5px;
+}
+
+.game-title__list {
+    margin-bottom: 25px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* @media (max-width: 900px) {
+    .game-title__container {
+        grid-template-columns: 1fr;
+    }
+} */
+

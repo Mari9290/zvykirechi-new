@@ -1,0 +1,15 @@
+.cta-head {
+    max-width: 300px;
+    background-color: #FFF1CB;
+    border-radius: 100%;
+    padding: 20px;
+}
+.cta-head__title {
+    color: #1B365C;
+    text-align: center;
+    font-weight: 400;
+}
+.cta-head__title-span {
+    color: #FF4000;
+    font-weight: bold;
+}

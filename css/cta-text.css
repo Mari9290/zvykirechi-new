@@ -1,0 +1,30 @@
+.cta-text {
+    background: #C2DFF0;
+}
+
+.cta-text__title {
+    text-align: center;
+    color: #142935;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .cta-text__title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 745px) {
+    .cta-text__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .cta-text__title {
+        font-size: 18px;
+    }
+}
+

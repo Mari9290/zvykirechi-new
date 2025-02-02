@@ -1,0 +1,41 @@
+.album__container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.anim-album {
+    animation: animBack 1s linear;
+}
+
+@keyframes animBack {
+
+    0% {
+        scale: 0.8;
+    }
+    100% {
+        scale: 1.2;
+        transform: rotate(360deg);
+    }
+}
+
+.album__par {
+    text-align: center;
+}
+
+@media (max-width:950px) {
+    .album__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .album__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+

@@ -1,0 +1,67 @@
+.skill {
+    background-image: url(../img/skills/background-circles.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill__item {
+    width: 380px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid #D5D5D5;
+    padding: 25px 0 50px 25px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+.skill__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill__number {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 53px;
+}
+
+.skill__par {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.skill__par-grey {
+    font-size: 18px;
+    line-height: 21px;
+    color: #7C7C7C;
+}
+
+@media (max-width: 850px) {
+    .skill {
+        background-repeat: repeat;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 500px) {
+    .skill__item {
+        width: 300px;
+        padding: 15px 0 25px 15px;
+    }
+
+    .skill__number {
+        font-size: 30px;
+    }
+
+    .skill__par {
+        font-size: 20px;
+    }
+
+    .skill__par-grey {
+        font-size: 14px;
+    }
+}

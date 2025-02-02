@@ -1,0 +1,12 @@
+.speech__par {
+    font-size: 16px;
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .speech__par {
+    font-size: 14px;
+    }
+}

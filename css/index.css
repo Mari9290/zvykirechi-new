@@ -1,0 +1,253 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(footer.css);
+@import url(social.css);
+@import url(cta.css);
+@import url(advantages-game.css);
+@import url(game-label.css);
+@import url(cta-price.css);
+@import url(cta-text.css);
+@import url(cta-btn.css);
+@import url(advantages-gym.css);
+@import url(cta-gym.css);
+@import url(text.css);
+@import url(advantages-start.css);
+@import url(start-label.css);
+@import url(advantages-auto.css);
+@import url(auto-label.css);
+@import url(advantages-atten.css);
+@import url(props.css);
+@import url(skill.css);
+@import url(video.css);
+@import url(reviews.css);
+@import url(social-payment.css);
+@import url(authorization.css);
+@import url(contacts.css);
+@import url(price.css);
+@import url(diagnostic-hat.css);
+@import url(diagnostic-label.css);
+@import url(test.css);
+@import url(about-us.css);
+@import url(story.css);
+@import url(news.css);
+@import url(partners.css);
+@import url(parents-head.css);
+@import url(speech.css);
+@import url(result.css);
+@import url(practice.css);
+@import url(how.css);
+@import url(course-stages.css);
+@import url(faq.css);
+@import url(game-title.css);
+@import url(temporary.css);
+@import url(cta-head.css);
+@import url(cta-parents.css);
+@import url(stages-payment.css);
+@import url(popup.css);
+@import url(popupt.css);
+@import url(popuph.css);
+@import url(call.css);
+@import url(ad.css);
+
+
+@font-face {
+    font-family: Ubuntu;
+    src: local(Ubuntu-Regular), url(../fonts/Ubuntu-Regular.woff2) format("woff2");
+    src: url(../fonts/Ubuntu-Regular.woff) format("woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: local(Ubuntu-Light), url(../fonts/Ubuntu-Light.woff2) format("woff");
+    src: url(../fonts/Ubuntu-Light.woff) format("woff");
+    font-weight: 300;
+    font-display: swap;
+}
+
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    overflow-x: hidden;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+iframe {
+    border: none;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+section, aside {
+    padding: 25px 0;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.heading-center {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    background: linear-gradient(91deg, #E26769 0.34%, #E88486 112.11%);
+    box-shadow: 0px 10px 10px 0px rgba(180, 27, 23, 0.30);
+    padding: 25px 50px;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 700;
+    transition: box-shadow .3s ease;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.btn:hover {
+    box-shadow: 0px 15px 15px 0px rgba(180, 27, 23, 0.30);
+    color: #fff;
+}
+
+.btn:active {
+    background: linear-gradient(91deg, #b75355 0.34%, #b06465 112.11%);
+}
+
+.btn-green {
+    background: linear-gradient(91deg, #54A582 0.34%, #6fb698 112.11%);
+    box-shadow: 0px 10px 10px 0px rgba(23, 180, 109, 0.3);
+}
+
+.btn-green:hover {
+    box-shadow: 0px 15px 15px 0px rgba(23, 180, 109, 0.3);
+    color: #fff;
+}
+
+.btn-green:active {
+    background: linear-gradient(91deg, #3c775d 0.34%, #518570 112.11%);
+}
+
+.btn-flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flare 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    left: -150%;
+}
+
+@keyframes flare {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .heading {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 25px 0 20px 0;
+    } 
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .btn {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,47 @@
+.mainlk {
+    background-image: url(../img/mainlk/bacground.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 30%;
+}
+
+.social-payment__link {
+    text-decoration-line: underline;
+}
+
+.social-payment__list {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.social-payment__text {
+    color: #757373;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.social-payment__item {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 126, 0.25);
+}
+
+.social-payment__item:hover {
+    box-shadow: 0px 8px 8px 0px rgba(126, 126, 126, 0.25);
+}
+
+@media (max-width: 500px) {
+    .mainlk {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 500px) {
+    .social-payment__list {
+        justify-content: space-around;
+        gap: 20px;
+    }
+}

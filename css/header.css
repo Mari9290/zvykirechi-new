@@ -1,0 +1,45 @@
+.header {
+    padding: 30px 20px 20px 20px;
+    margin: auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__wrap {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.header__link::before {
+    content: '';
+    background: url(../img/header/logo.svg);
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 500px) {
+
+    .header__link::before {
+        background-size: 70px auto;
+    }
+
+    .header__wrap {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header {
+        padding: 15px 20px;
+    }
+}

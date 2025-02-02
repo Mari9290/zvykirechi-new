@@ -1,0 +1,53 @@
+.stages-payment {
+    margin-bottom: 20px;
+}
+
+.stages-payment__item {
+    white-space: pre-line;
+    font-size: 13px;
+}
+
+.stages-payment__item:nth-child(1) {
+    color: #964337;
+}
+
+.stages-payment__item:nth-child(2) {
+    color: #2B1F0A;
+}
+
+.stages-payment__item:nth-child(3) {
+    color: #102C1F;
+}
+
+.stages-payment__list {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+@media (max-width: 520px) {
+    .stages-payment__img {
+        width: 100%;
+    }
+
+    .stages-payment__list {
+        justify-content: space-between;
+    }
+
+    .stages-payment__item {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .stages-payment__item {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 360px) {
+    .stages-payment__item {
+        font-size: 8px;
+    }
+}
+

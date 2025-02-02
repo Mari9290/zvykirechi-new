@@ -1,0 +1,42 @@
+.temporary {
+    background-color: #D1F6E9;
+}
+
+.temporary__item {
+    margin-bottom: 3px;
+}
+
+.temporary__item:last-child {
+    margin-bottom: 0;
+}
+
+.temporary__list {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.temporary__par {
+    margin-bottom: 40px;
+}
+
+.temporary__text {
+    width: 50%;
+}
+
+.temporary__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+@media (max-width: 1000px) {
+    .temporary__wrap {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .temporary__text {
+        width: 100%;
+    }
+}

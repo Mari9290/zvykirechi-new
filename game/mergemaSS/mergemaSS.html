@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слияние открытых слогов МА</title>
+    <link rel="stylesheet" href="css/mergemaSS.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html#startgame" class="header__link"></a>
+
+            <h2 class="header__title">Слияние открытых слогов</h2>
+
+            <figure class="instruction">
+                <figcaption class="instruction__text">Помоги звукам подружиться!
+                    Пока первый звук едет, пропевай его песенку.
+                    А когда он подъедет к своему другу 
+                    – пропой песенку друга.
+                    Потом попробуй сделать это быстрее!
+                    (ребенок сливает звуки в слоги, плавно, 
+                    без пауз между звуками)</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main>
+        <section class="pers">
+            <div class="pers__container">
+                <div class="pers__wrap">
+                    <figure class="pers__figure">
+                        <img id="characterOne" class="pers__img" src="img/pers/Mcow.png" alt="звук M">
+                    </figure>
+
+                    <figure class="pers__figure">
+                        <img id="characterTwo" class="pers__img" src="img/squirrel/Asquirrel.png" alt="звук А">
+                    </figure>
+
+                    <div>
+                        <button id="startOne" class="pers__btn"></button>
+                        <button id="startTwo" class="pers__btn"></button>
+                        <button id="startThree" class="pers__btn"></button>
+                    </div>
+
+                </div>
+
+                <div class="pers__wrap">
+                    <figure class="pers__figure">
+                        <img id="characterThree" class="pers__img" src="img/pers/Mcow.png" alt="звук M">
+                    </figure>
+
+                    <figure class="pers__figure">
+                        <img id="characterFour" class="pers__img" src="img/squirrel/Osquirrel.png" alt="звук А">
+                    </figure>
+
+                    <div>
+                        <button id="startSecond" class="pers__btn"></button>
+                        <button id="startOneSecond" class="pers__btn"></button>
+                        <button id="startTwoSecond" class="pers__btn"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="next">
+            <div class="next__container container">
+                <button id="next" class="next__btn"></button>
+                <button id="nextImage" class="next__btn"></button>
+                <button id="repiat" class="next__btn-repiat"></button>
+            </div>
+        </section>
+    </main>
+
+    <audio id="audioOne" src="audio/ma.mp4"></audio>
+    <audio id="audioTwo" src="audio/mo.mp4"></audio>
+    <audio id="audioThree" src="audio/mu.mp4"></audio>
+    <audio id="audioFour" src="audio/mi.mp4"></audio>
+    <audio id="audioFive" src="audio/my.mp4"></audio>
+    <audio id="audioSix" src="audio/me.mp4"></audio>
+
+
+    <script src="js/mergemaSS.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.test__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test__form {
+    margin: auto;
+}
+
+.test__fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.test__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.test__show {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    max-width: 700px;
+}
+
+.test__span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.test__label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#displayTest1 {
+    display: none;
+}
+
+#displayTest2 {
+    display: none;
+}
+
+#displayTest3 {
+    display: none;
+}
+
+#displayTest4 {
+    display: none;
+}
+
+#displayTest5 {
+    display: none;
+}
+
+#displayTest6 {
+    display: none;
+}

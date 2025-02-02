@@ -1,0 +1,56 @@
+.advantages-gym {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.advantages-gym__item {
+    border-radius: 20px;
+    background: #fff;
+    /* box-shadow: 5px 5px 8px 0px rgba(45, 142, 173, 0.50); */
+    padding: 25px 20px 25px 45px;
+    white-space: pre-line;
+    position: relative;
+    width: 260px;
+}
+
+
+.advantages-gym__item:nth-child(1)::before {
+    content: url(../img/advanteges-gym/fairy.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-gym__item:nth-child(2)::before {
+    content: url(../img/advanteges-gym/bear.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-gym__item:nth-child(3)::before {
+    content: url(../img/advanteges-gym/timer.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-gym__item:nth-child(4)::before {
+    content: url(../img/advanteges-gym/manul.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+@media (max-width: 500px) {
+    .advantages-gym__item {
+        width: 225px;
+        font-size: 12px;
+    }
+}

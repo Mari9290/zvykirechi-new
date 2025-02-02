@@ -1,0 +1,71 @@
+.gymnastic {
+    position: relative;
+}
+
+.gymnastic__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.gymnastic__btn {
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.gymnastic__btn::after {
+    content: url(../img/icon/forvard.svg);
+    object-fit: contain;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#show {
+    display: none;
+}
+
+#exampleOne {
+    display: none;
+}
+
+#exampleTwo {
+    display: none;
+}
+#exampleThree {
+    display: none;
+}
+#exampleFour {
+    display: none;
+}
+#exampleFive {
+    display: none;
+}
+#exampleSix {
+    display: none;
+}
+#exampleSeven {
+    display: none;
+}
+#exampleEight {
+    display: none;
+}
+#exampleNine {
+    display: none;
+}
+#exampleTen {
+    display: none;
+}
+#exampleEleven {
+    display: none;
+}
+
+@media all and (max-width: 600px) {
+    .gymnastic__img {
+        width: 300px;
+    }
+}
+

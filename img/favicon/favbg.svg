@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_3);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Ubuntu-Medium, Ubuntu;
+        font-size: 70.38px;
+        font-weight: 500;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="2" y1="61.05" x2="118" y2="61.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a0dc"/>
+      <stop offset="1" stop-color="#35af72"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m108.91,95.31L15.38,116.75c-6.94,1.59-13.38-4.67-13.38-12.99V18.34c0-8.23,6.31-14.46,13.19-13.03l93.53,19.49c5.37,1.12,9.28,6.61,9.28,13.03v44.49c0,6.33-3.81,11.78-9.09,12.99Z"/>
+  <text class="cls-2" transform="translate(19.67 82.57) scale(.99 1)"><tspan x="0" y="0">ЗР</tspan></text>
+</svg>

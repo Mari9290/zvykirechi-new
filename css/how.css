@@ -1,0 +1,71 @@
+.how__par {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 700px;
+    margin-bottom: 35px;
+}
+
+.how__li {
+    position: relative;
+    white-space: pre-line;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7D191A;
+}
+
+.how__li::before {
+    content: url(../img/how/ok.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.how__list {
+    list-style-position: inside;
+}
+
+.how__ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 35px;
+    padding-left: 55px;
+}
+
+@media (max-width: 650px) {
+    .how__par {
+        font-size: 16px;
+    }
+
+    .how__li {
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .how__ul {
+        padding-left: 10px;
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .how__li {
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .how__par {
+        font-size: 14px;
+    }
+
+    .how__ul {
+        padding-left: 10px;
+        gap: 10px;
+    }
+}

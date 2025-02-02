@@ -1,0 +1,33 @@
+.improve-game__item {
+    max-width: 150px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.improve-game__list {
+    display: flex;
+    justify-content: center;
+    gap: 50px 200px;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.improve-game__list-start {
+    max-width: 1000px;
+}
+
+.improve-game__span {
+    border-radius: 15px;
+    background: #F9F4F8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    display: block;
+    width: 140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

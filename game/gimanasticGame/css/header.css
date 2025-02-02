@@ -1,0 +1,115 @@
+.header {
+    position: relative;
+}
+
+.header__link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__btn {
+    cursor: pointer;
+    display: inline;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.playmuse {
+    display: none;
+}
+
+.header__link::after {
+    content: url(../img/icon/home.svg);
+    object-fit: contain;
+    position: absolute;
+    padding: 5px;
+}
+
+.header__link:hover {
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header__link:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.instruction__text {
+    white-space: pre-line;
+    line-height: 150%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+@media (max-width: 925px) {
+    .instruction__text {
+        font-size: 14px;
+    }
+
+    .header__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .instruction__text {
+        font-size: 12px;
+    }
+
+    .header__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .instruction__text {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .header__title {
+        padding-top: 45px;
+    }
+}
+
+
+@media (max-width: 365px) {
+    .header__link::after {
+        padding: 0;
+    }
+
+    .header__link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__btn {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+}

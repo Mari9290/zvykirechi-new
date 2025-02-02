@@ -1,0 +1,56 @@
+.advantages-auto {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.advantages-auto__item {
+    border-radius: 20px;
+    background: #fff;
+    /* box-shadow: 5px 5px 8px 0px rgba(45, 142, 173, 0.50); */
+    padding: 25px 20px 25px 45px;
+    white-space: pre-line;
+    position: relative;
+    width: 260px;
+}
+
+
+.advantages-auto__item:nth-child(1)::before {
+    content: url(../img/advantages-auto/stages.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-auto__item:nth-child(2)::before {
+    content: url(../img/advantages-auto/like.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-auto__item:nth-child(3)::before {
+    content: url(../img/advantages-auto/play.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+
+.advantages-auto__item:nth-child(4)::before {
+    content: url(../img/advantages-auto/drum.svg);
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+@media (max-width: 500px) {
+    .advantages-auto__item {
+        width: 225px;
+        font-size: 12px;
+    }
+}

@@ -5,6 +5,10 @@
     background-position: center;
 }
 
+.skill__wrap {
+    display: flex;
+}
+
 .skill__item {
     width: 380px;
     background: rgba(255,255,255,0.5);
@@ -38,6 +42,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #7C7C7C;
+    white-space: pre-line;
 }
 
 @media (max-width: 850px) {

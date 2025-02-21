@@ -1,104 +1,66 @@
-.props__item {
-    width: 480px;
-    height: 170px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 30px 30px 30px 100px;
-    position: relative;
+.props {
+    background-image: url(../img/pros/background-props.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.props__item:nth-child(1)::before {
-    content: url(../img/pros/heart.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-}
-
-.props__item:nth-child(2)::before {
-    content: url(../img/pros/alarm.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-}
-
-.props__item:nth-child(3)::before {
-    content: url(../img/pros/office.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-}
-
-.props__item:nth-child(4)::before {
-    content: url(../img/pros/avatarhuman.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-}
-
-.props__item:nth-child(5)::before {
-    content: url(../img/pros/machine.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
-}
-
-.props__item:nth-child(6)::before {
-    content: url(../img/pros/personal.svg);
-    position: absolute;
-    top: -10px;
-    left: 10px;
+.props__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .props__list {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.props__item {
+    border-radius: 20px;
+    margin-bottom: 60px;
+    padding: 10px 70px 10px 40px;
+    min-height: 120px;
+}
+
+.props__item-white {
+    background: rgb(255, 255, 255);
 }
 
 .props__par {
+    white-space: pre-line;
+    font-size: 16px;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
 }
 
-.props__text {
-    font-size: 18px;
-    line-height: 21px;
-    color: #7C7C7C;
+.props__span-violet {
+    color: #831466;
 }
 
-
-@media (max-width: 700px) {
-    .props__par {
-        font-size: 18px;
-    }
-
-    .props__text {
-        font-size: 14px;
-    }
+.props__span-green {
+    color: #145046;
 }
 
-@media (max-width: 600px) {
-    .props__item {
-        width: 380px;
-        height: 100%;
-        padding: 15px 15px 15px 80px;
-    }
+.props__item-green {
+    background-color: #76CECF;
 }
 
-@media (max-width: 420px) {
-    .props__item {
-        width: 350px;
-        height: 100%;
-    }
+.props__par-white {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    white-space: pre-line;
 }
 
-@media (max-width: 370px) {
-    .props__item {
-        width: 300px;
-        height: 100%;
-    }
+.props__span-white {
+    font-size: 16px;
 }
 
+.props__item-blue {
+    background-color: #5F87ED;
+}

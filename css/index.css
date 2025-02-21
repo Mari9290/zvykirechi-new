@@ -237,6 +237,7 @@ section, aside {
 
     .heading {
         font-size: 20px;
+        margin-bottom: 25px;
     }
 
     .btn {

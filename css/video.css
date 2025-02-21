@@ -1,21 +1,21 @@
-.video__wrap {
+/* .video__wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-}
+} */
 
-.video__video {
+/* .video__video {
     width: 700px;
-}
+} */
 
-.video__btn {
+/* .video__btn {
     display: block;
-}
+} */
 
 .video__vid {
-    width: 250px;
+    width: 300px;
     border-radius: 20px;
 }
 

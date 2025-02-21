@@ -2,71 +2,106 @@
     background-image: url(../img/skills/background-circles.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 
 .skill__wrap {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.skill__wrapper {
+    max-width: 650px;
+}
+
+.skill__par-head {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: -140px;
+    margin-bottom: 50px;
+}
+
+.skill__img {
+    width: 400px;
 }
 
 .skill__item {
-    width: 380px;
-    background: rgba(255,255,255,0.5);
-    border: 1px solid #D5D5D5;
-    padding: 25px 0 50px 25px;
+    width: 300px;
+    padding: 10px 0 40px 25px;
     backdrop-filter: blur(2px);
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .skill__list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .skill__number {
-    font-weight: 700;
-    font-size: 46px;
+    font-weight: 600;
+    font-size: 50px;
     line-height: 53px;
 }
 
 .skill__par {
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 27px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .skill__par-grey {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 21px;
     color: #7C7C7C;
     white-space: pre-line;
 }
 
-@media (max-width: 850px) {
-    .skill {
-        background-repeat: repeat;
-        object-fit: contain;
+@media (max-width: 1400px) {
+    .skill__par-head {
+        margin-left: 0;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
+    .skill {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .skill__par-head {
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 15px;
+    }
+
     .skill__item {
-        width: 300px;
-        padding: 15px 0 25px 15px;
+        flex-basis: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 10px 0 11px 11px;
     }
 
     .skill__number {
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 20px;
     }
 
     .skill__par {
-        font-size: 20px;
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 0;
     }
 
     .skill__par-grey {
-        font-size: 14px;
+        font-weight: 700;
+        font-size: 12px;
     }
 }

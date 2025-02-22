@@ -7,20 +7,20 @@
 
 .skill__wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
 }
 
 .skill__wrapper {
-    max-width: 650px;
+    max-width: 820px;
 }
 
 .skill__par-head {
     font-weight: 700;
     font-size: 16px;
     line-height: 27px;
-    margin-left: -140px;
+    /* margin-left: -140px; */
     margin-bottom: 50px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .skill__item {
-    width: 300px;
+    width: 400px;
     padding: 10px 0 40px 25px;
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -68,13 +68,13 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 870px) {
     .skill {
         background-size: cover;
     }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 870px) {
 
     .skill__par-head {
         font-size: 12px;
@@ -105,3 +105,11 @@
         font-size: 12px;
     }
 }
+
+
+@media (max-width: 450px) {
+    .skill__item {
+        width: 300px;
+    }
+}
+

@@ -1,0 +1,37 @@
+.triggers__item {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    position: relative;
+    margin-bottom: 45px;
+    padding-left: 45px;
+}
+
+.triggers__item:last-child {
+    margin-bottom: 0;
+}
+
+.triggers__item::before {
+    position: absolute;
+    content: url(../img/triggers/mark.svg);
+    top: 0;
+    left: 0;
+}
+
+.triggers__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    .triggers__item {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}

@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .props__list {
@@ -21,6 +23,25 @@
     margin-bottom: 60px;
     padding: 10px 70px 10px 40px;
     min-height: 120px;
+    position: relative;
+}
+
+.props__item:last-child {
+    margin-bottom: 0;
+}
+
+.props__item:nth-child(2)::before {
+    position: absolute;
+    content: url(../img/pros/manul_reads2.svg);
+    right: 20px;
+    bottom: 10px;
+}
+
+.props__item:nth-child(3)::before {
+    position: absolute;
+    content: url(../img/pros/beaver_russia.svg);
+    right: 20px;
+    bottom: 0;
 }
 
 .props__item-white {
@@ -63,4 +84,30 @@
 
 .props__item-blue {
     background-color: #5F87ED;
+}
+
+@media (max-width: 610px) {
+    .props__par, .props__par-white {
+        font-size: 10px;
+        line-height: 13px;
+        width: 70%;
+    }
+
+    .props__item {
+        margin-bottom: 20px;
+    }
+
+    .props__item:nth-child(2)::before {
+        right: 0;
+    }
+    
+    .props__item:nth-child(3)::before {
+        right: 0;
+    }
+}
+
+@media (max-width: 330px) {
+    .props__par, .props__par-white {
+        width: 60%;
+    }
 }

@@ -1,0 +1,39 @@
+.touch__par {
+    white-space: pre-line;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+.touch__par-violet {
+    color: #841667;
+}
+
+.touch__par-bold {
+    font-size: 20px;
+}
+
+.touch__par-green {
+    color: #145046;
+}
+
+.touch__wrap {
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    padding: 25px 25px 45px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 600px) {
+    .touch__par {
+        font-size: 12px;
+    }
+
+    .touch__par-bold {
+        font-size: 14px;
+    }
+}

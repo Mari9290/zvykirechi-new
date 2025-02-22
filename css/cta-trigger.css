@@ -1,0 +1,48 @@
+.cta-trigger__par {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    white-space: pre-line;
+    margin-bottom: 15px;
+}
+
+.cta-trigger__par-green {
+    color: rgb(20, 80, 70);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+
+.cta-trigger__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.cta-trigger__span {
+    color: #891F6D;
+}
+
+.cta-trigger__btn {
+    display: block;
+}
+
+@media (max-width: 1100px) {
+    .cta-trigger__wrap {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .cta-trigger__par {
+        font-size: 12px;
+    }
+
+    .cta-trigger__par-green {
+        font-size: 14px;
+    }
+}

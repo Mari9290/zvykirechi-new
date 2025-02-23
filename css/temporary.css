@@ -1,5 +1,8 @@
 .temporary__item {
     margin-bottom: 3px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .temporary__item:last-child {
@@ -15,12 +18,16 @@
 
 .temporary__par {
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .temporary__par-green {
     color: #145046;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .temporary__text {
@@ -49,7 +56,7 @@
 
 .temporary-game-label__link {
     color: #613957;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     white-space: pre-line;
     border-radius: 20px;
@@ -82,5 +89,9 @@
 
     .temporary__text {
         width: 100%;
+    }
+
+    .temporary__item {
+        font-size: 14px;
     }
 }

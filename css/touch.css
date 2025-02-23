@@ -1,8 +1,8 @@
 .touch__par {
     white-space: pre-line;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
     letter-spacing: 0px;
 }
 .touch__par-violet {
@@ -30,7 +30,9 @@
 
 @media (max-width: 600px) {
     .touch__par {
-        font-size: 12px;
+        font-size: 14px;
+        white-space: normal;
+        margin-bottom: 15px;
     }
 
     .touch__par-bold {

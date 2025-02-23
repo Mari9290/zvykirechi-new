@@ -17,10 +17,9 @@
 }
 
 .skill__par-head {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 27px;
-    /* margin-left: -140px; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
     margin-bottom: 50px;
 }
 
@@ -76,6 +75,10 @@
 
 @media (max-width: 870px) {
 
+    .skill__item-div {
+        width: 35%;
+    }
+
     .skill__par-head {
         font-size: 12px;
         margin-bottom: 20px;
@@ -95,7 +98,7 @@
     }
 
     .skill__par {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 20px;
         margin-bottom: 0;
     }

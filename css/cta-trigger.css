@@ -1,7 +1,7 @@
 .cta-trigger__par {
+    font-weight: 400;
     font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
+    line-height: 22px;
     letter-spacing: 0px;
     white-space: pre-line;
     margin-bottom: 15px;
@@ -9,7 +9,7 @@
 
 .cta-trigger__par-green {
     color: rgb(20, 80, 70);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0px;
@@ -39,7 +39,7 @@
 
 @media (max-width: 800px) {
     .cta-trigger__par {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .cta-trigger__par-green {

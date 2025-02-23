@@ -50,9 +50,9 @@
 
 .props__par {
     white-space: pre-line;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
     letter-spacing: 0px;
 }
 
@@ -71,9 +71,9 @@
 .props__par-white {
     color: white;
     margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
     letter-spacing: 0px;
     white-space: pre-line;
 }
@@ -88,7 +88,7 @@
 
 @media (max-width: 610px) {
     .props__par, .props__par-white {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 13px;
         width: 70%;
     }

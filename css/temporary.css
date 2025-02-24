@@ -87,6 +87,10 @@
         gap: 15px;
     }
 
+    .temporary__par, .temporary__par-green {
+        font-size: 14px;
+    }
+
     .temporary__text {
         width: 100%;
     }

@@ -69,6 +69,10 @@
         gap: 10px;
     }
 
+    .game__par {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 445px) {

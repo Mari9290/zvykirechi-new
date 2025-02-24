@@ -75,6 +75,14 @@
 
 @media (max-width: 870px) {
 
+    .skill__wrap {
+        justify-content: center;
+    }
+
+    .skill__img {
+        width: 200px;
+    }
+
     .skill__item-div {
         width: 35%;
     }

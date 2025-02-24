@@ -1,0 +1,56 @@
+<svg width="1185.000122" height="796.425781" viewBox="0 0 1185 796.426" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<radialGradient gradientTransform="translate(535.886 578.28) rotate(0) scale(266.626 221.607)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_21_395_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E66CC5"/>
+			<stop offset="0.090000" stop-color="#E66CC5" stop-opacity="0.956863"/>
+			<stop offset="0.250000" stop-color="#E66CC5" stop-opacity="0.847059"/>
+			<stop offset="0.440000" stop-color="#E66CC5" stop-opacity="0.658824"/>
+			<stop offset="0.680000" stop-color="#E66CC5" stop-opacity="0.407843"/>
+			<stop offset="0.930000" stop-color="#E66CC5" stop-opacity="0.086275"/>
+			<stop offset="1.000000" stop-color="#E66CC5" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(887.164 491.392) rotate(0) scale(296.51 235.253)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_21_397_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#6EEFFA"/>
+			<stop offset="0.120000" stop-color="#63F0FA" stop-opacity="0.909804"/>
+			<stop offset="0.370000" stop-color="#4AF4FB" stop-opacity="0.666667"/>
+			<stop offset="0.730000" stop-color="#21FAFD" stop-opacity="0.298039"/>
+			<stop offset="1.000000" stop-color="#00FFFF" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(824.063 227.614) rotate(0) scale(289.071 226.546)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_21_401_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.200000" stop-color="#E798A2"/>
+			<stop offset="0.290000" stop-color="#E798A2" stop-opacity="0.976471"/>
+			<stop offset="0.400000" stop-color="#E798A2" stop-opacity="0.917647"/>
+			<stop offset="0.510000" stop-color="#E798A2" stop-opacity="0.819608"/>
+			<stop offset="0.630000" stop-color="#E798A2" stop-opacity="0.666667"/>
+			<stop offset="0.750000" stop-color="#E798A2" stop-opacity="0.486275"/>
+			<stop offset="0.870000" stop-color="#E798A2" stop-opacity="0.266667"/>
+			<stop offset="1.000000" stop-color="#E798A2" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#E798A2" stop-opacity="0.000000"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(345.815 282.826) rotate(0) scale(346.554 261.531)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_21_399_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FCD28A"/>
+			<stop offset="0.090000" stop-color="#FCD28A" stop-opacity="0.968627"/>
+			<stop offset="0.220000" stop-color="#FCD28A" stop-opacity="0.898039"/>
+			<stop offset="0.370000" stop-color="#FCD28A" stop-opacity="0.768627"/>
+			<stop offset="0.550000" stop-color="#FCD28A" stop-opacity="0.588235"/>
+			<stop offset="0.730000" stop-color="#FCD28A" stop-opacity="0.368627"/>
+			<stop offset="0.930000" stop-color="#FCD28A" stop-opacity="0.098039"/>
+			<stop offset="1.000000" stop-color="#FCD28A" stop-opacity="0.000000"/>
+		</radialGradient>
+	</defs>
+	<g opacity="0.300000">
+		<ellipse id="ellipse" cx="533.645020" cy="575.400391" rx="265.966675" ry="221.024628" fill="url(#paint_radial_21_395_0)" fill-opacity="1.000000"/>
+	</g>
+	<g opacity="0.300000">
+		<ellipse id="ellipse" cx="888.355103" cy="493.783203" rx="296.644989" ry="235.505096" fill="url(#paint_radial_21_397_0)" fill-opacity="1.000000"/>
+	</g>
+	<g opacity="0.300000">
+		<ellipse id="ellipse" cx="822.916748" cy="226.158691" rx="288.744995" ry="226.158585" fill="url(#paint_radial_21_401_0)" fill-opacity="1.000000"/>
+	</g>
+	<g opacity="0.300000">
+		<ellipse id="ellipse" cx="347.073364" cy="283.422363" rx="347.073364" ry="261.569946" fill="url(#paint_radial_21_399_0)" fill-opacity="1.000000"/>
+	</g>
+</svg>

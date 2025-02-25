@@ -102,3 +102,29 @@
 .hover-effect-btn:hover .partners__hidden-par {
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    .partners__list {
+        gap: 10px;
+    }
+
+    .partners__item {
+        width: 150px;
+        min-height: 150px;
+    }
+
+    .partners__par {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 335px) {
+    .partners__item {
+        width: 140px;
+    }
+
+    .partners__par {
+        font-size: 10px;
+    }
+}
+

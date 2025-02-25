@@ -1,0 +1,73 @@
+.doc__img {
+    width: 300px;
+}
+
+.doc__next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: var(--color-violet);
+        font-weight: bold;
+        font-size: 26px;
+        transition: 0.6s ease;
+        right: 300px;
+        border-radius: 0 3px 3px 0;
+}
+
+.doc__previous {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--color-violet);
+    font-weight: bold;
+    font-size: 26px;
+    transition: 0.6s ease;
+    left: 300px;
+    border-radius: 3px 0 0 3px;
+}
+
+.doc__previous:hover, .doc__next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.doc__wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+    .doc__next {
+        right: 100px;
+    }
+
+    .doc__previous {
+        left: 100px;
+    }
+
+}
+
+
+@media (max-width: 670px) {
+
+    .doc__next {
+        right: 0;
+    }
+
+    .doc__previous {
+        left: 0;
+    }
+
+    .doc__img {
+        width: 250px;
+    }
+
+}

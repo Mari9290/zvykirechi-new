@@ -88,7 +88,7 @@
 
 @media (max-width: 610px) {
     .props__par, .props__par-white {
-        font-size: 14px;
+        font-size: 12px;
         white-space: normal;
         width: 70%;
     }
@@ -113,5 +113,9 @@
 @media (max-width: 330px) {
     .props__par, .props__par-white {
         width: 60%;
+    }
+
+    .props__par-first {
+        width: 100%;
     }
 }

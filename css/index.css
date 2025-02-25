@@ -53,6 +53,7 @@
 @import url(cta-trigger.css);
 @import url(touch.css);
 @import url(game.css);
+@import url(doc.css);
 
 
 @font-face {
@@ -180,7 +181,8 @@ section, aside {
 }
 
 .btn:hover {
-    box-shadow: 0px 15px 15px 0px rgba(180, 27, 23, 0.30);
+    background: linear-gradient(91deg, #c4595a 0.34%, #E88486 112.11%);
+    box-shadow: 8px 15px 15px 0px rgba(180, 27, 23, 0.30);
     color: #fff;
 }
 
@@ -194,7 +196,8 @@ section, aside {
 }
 
 .btn-green:hover {
-    box-shadow: 0px 15px 15px 0px rgba(23, 180, 109, 0.3);
+    box-shadow: 8px 15px 15px 0px rgba(23, 180, 109, 0.3);
+    background: linear-gradient(91deg, #4c9575 0.34%, #6fb698 112.11%);
     color: #fff;
 }
 

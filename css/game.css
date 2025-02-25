@@ -28,6 +28,10 @@
     position: relative;
 }
 
+.game__link:hover {
+    box-shadow: 8px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
 .game__img {
     position: absolute;
     right: 15px;

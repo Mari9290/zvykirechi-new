@@ -1,5 +1,7 @@
 .doc__img {
     width: 300px;
+    height: 60vh;
+    object-fit: contain;
 }
 
 .doc__next {

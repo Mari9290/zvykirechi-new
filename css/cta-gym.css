@@ -4,3 +4,9 @@
     flex-wrap: wrap;
     gap: 80px;
 }
+
+@media (max-width: 800px) {
+    .cta-gym__wrap {
+        gap: 20px;
+    }
+}
